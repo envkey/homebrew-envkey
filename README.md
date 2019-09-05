@@ -6,13 +6,13 @@ Includes formulae for [envkey-source](https://github.com/envkey/envkey-source) a
 
 ## Installation
 
-To install both envkey-source and envkey-fetch at the same time:
+To install both `envkey-source` and `envkey-fetch` at the same time:
 
 ```
 brew install envkey/envkey
 ```
 
-Or to install one or the other individually:
+Or to install individually:
 
 ```
 brew tap envkey/envkey
