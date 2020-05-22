@@ -7,6 +7,7 @@ class EnvkeySource < Formula
 
   def install
     ENV["GOPATH"] = buildpath/"src"
+    ENV["GO111MODULE"] = "off"
 
     system "go", "build", "-o", "envkey-source", "main.go"
 
